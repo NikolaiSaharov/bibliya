@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "SerializationLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SerializationLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SerializationLibrary1.dll": {}
+        }
+      },
+      "ThemeLibrary2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ThemeLibrary2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThemeLibrary2.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "SerializationLibrary1/1.0.0": {
+      "type": "project",
+      "path": "../SerializationLibrary1/SerializationLibrary1.csproj",
+      "msbuildProject": "../SerializationLibrary1/SerializationLibrary1.csproj"
+    },
+    "ThemeLibrary2/1.0.0": {
+      "type": "project",
+      "path": "../ThemeLibrary2/ThemeLibrary2.csproj",
+      "msbuildProject": "../ThemeLibrary2/ThemeLibrary2.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "SerializationLibrary1 >= 1.0.0",
+      "ThemeLibrary2 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Админ\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Админ\\source\\repos\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+      "projectName": "WpfApp2",
+      "projectPath": "C:\\Users\\Админ\\source\\repos\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+      "packagesPath": "C:\\Users\\Админ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Админ\\source\\repos\\WpfApp2\\WpfApp2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Админ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Админ\\source\\repos\\WpfApp2\\SerializationLibrary1\\SerializationLibrary1.csproj": {
+              "projectPath": "C:\\Users\\Админ\\source\\repos\\WpfApp2\\SerializationLibrary1\\SerializationLibrary1.csproj"
+            },
+            "C:\\Users\\Админ\\source\\repos\\WpfApp2\\ThemeLibrary2\\ThemeLibrary2.csproj": {
+              "projectPath": "C:\\Users\\Админ\\source\\repos\\WpfApp2\\ThemeLibrary2\\ThemeLibrary2.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

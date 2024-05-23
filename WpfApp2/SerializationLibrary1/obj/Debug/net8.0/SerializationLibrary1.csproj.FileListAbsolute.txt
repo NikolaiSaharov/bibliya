@@ -1,0 +1,11 @@
+C:\Users\Админ\source\repos\WpfApp2\SerializationLibrary1\bin\Debug\net8.0\SerializationLibrary1.deps.json
+C:\Users\Админ\source\repos\WpfApp2\SerializationLibrary1\bin\Debug\net8.0\SerializationLibrary1.dll
+C:\Users\Админ\source\repos\WpfApp2\SerializationLibrary1\bin\Debug\net8.0\SerializationLibrary1.pdb
+C:\Users\Админ\source\repos\WpfApp2\SerializationLibrary1\obj\Debug\net8.0\SerializationLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Админ\source\repos\WpfApp2\SerializationLibrary1\obj\Debug\net8.0\SerializationLibrary1.AssemblyInfoInputs.cache
+C:\Users\Админ\source\repos\WpfApp2\SerializationLibrary1\obj\Debug\net8.0\SerializationLibrary1.AssemblyInfo.cs
+C:\Users\Админ\source\repos\WpfApp2\SerializationLibrary1\obj\Debug\net8.0\SerializationLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\WpfApp2\SerializationLibrary1\obj\Debug\net8.0\SerializationLibrary1.dll
+C:\Users\Админ\source\repos\WpfApp2\SerializationLibrary1\obj\Debug\net8.0\refint\SerializationLibrary1.dll
+C:\Users\Админ\source\repos\WpfApp2\SerializationLibrary1\obj\Debug\net8.0\SerializationLibrary1.pdb
+C:\Users\Админ\source\repos\WpfApp2\SerializationLibrary1\obj\Debug\net8.0\ref\SerializationLibrary1.dll
